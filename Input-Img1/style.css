@@ -1,0 +1,120 @@
+@font-face{
+    font-family: "fonti";
+    src: url(./fonts/Inter-Regular.ttf);
+}
+.header{
+    margin: auto;
+    width: 378px;
+    height: 489px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(244, 180, 180, 0.48);
+    background: #F5F5F5;
+    padding-top: 20px;
+    
+    
+    
+}
+.header img{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+label{
+    color: #616161;
+    font-family: "fonti";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 30px;
+  
+    
+}
+.my-email{
+    width: 315px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(244, 180, 180, 0.48);
+    background: #FFF;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    
+    
+    
+}
+.my-email input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.my-email img{
+    position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 290px;
+}
+.my-email input::placeholder{
+    color: #9E9E9E;
+
+font-family: "fonti";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.my-password{
+    width: 315px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(244, 180, 180, 0.48);
+    background: #FFF;
+    margin-left: 30px;
+    position: relative;
+}
+.my-password input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.my-password img{
+    position: absolute;
+    top: 50%;
+   transform: translateY(-50%);
+   left: 290px;
+}
+.my-password input::placeholder{
+    color: #9E9E9E;
+
+font-family: "fonti";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.button1{
+    width: 330px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #6756CB;
+margin-top: 40px;
+margin-left: 30px;
+border: none;
+color: #FFF;
+font-family: "fonti";
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
